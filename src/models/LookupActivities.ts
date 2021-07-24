@@ -3,8 +3,8 @@ import ILookupActivities from '../interfaces/ILookupActivities';
 
 const LookupActivitiesSchema: Schema = new Schema(
     {
-        name: { type: String, required: true },
-        status: { type: Number, required: true },
+        name: { type: String },
+        status: { type: Number },
     },
 );
 

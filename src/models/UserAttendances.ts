@@ -3,15 +3,15 @@ import IUserAttendances from '../interfaces/IUserAttendances';
 
 const UserAttendanceSchema: Schema = new Schema(
     {
-        userId: { type: String, required: true },
-        lookupActivitiesId: { type: String, required: true },
-        lookupActivitiesName: { type: String, required: true },
-        pathPhoto: { type: String, required: true },
-        latitude: { type: String, required: true },
-        longitude: { type: String, required: true },
-        status: { type: Number, required: true },
-        createdBy: { type: String, required: true },
-        createdAt: { type: Date, required: true },
+        userId: { type: String },
+        lookupActivitiesId: { type: String },
+        lookupActivitiesName: { type: String },
+        pathPhoto: { type: String },
+        latitude: { type: String },
+        longitude: { type: String },
+        status: { type: Number },
+        createdBy: { type: String },
+        createdAt: { type: Date },
     },
 );
 

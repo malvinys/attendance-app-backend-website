@@ -9,7 +9,7 @@ interface IUserAttendances extends Document {
     longitude: string;
     status: number;
     createdBy: string;
-    createdAt: string;
+    createdAt: Date;
 }
 
 export default IUserAttendances;

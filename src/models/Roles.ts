@@ -3,8 +3,8 @@ import IRoles from '../interfaces/IRoles';
 
 const RolesSchema: Schema = new Schema(
     {
-        name: { type: String, required: true },
-        status: { type: Number, required: true },
+        name: { type: String },
+        status: { type: Number },
     },
 );
 
